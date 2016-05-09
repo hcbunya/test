@@ -61,20 +61,12 @@ Class DataAdapter{
     }
 
     public function getData($year = 2016){
-//        $fileDir = \Yii::getAlias('@webroot') . '/../files/test.xml';
-//        if (file_exists($fileDir)){
-//            $this->response = file_get_contents($fileDir);
-//        } else{
             $this->response = file_get_contents($this->prepareUrl($year), false, stream_context_create(array(
                 'http' => array(
                     'method' => 'GET',
                     'header' => "Ocp-Apim-Subscription-Key: " . self::$key,
                 )
             )));
-//            if ($this->response){
-//                return file_put_contents($fileDir,$this->response);
-//            }
-//        }
     }
 
     private function prepareUrl($year){
