@@ -4251,3 +4251,657 @@
 [Wed May 18 02:17:13.438040 2016] [:error] [pid 13950] [client 127.0.0.1:34908] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54, referer: http://test.dev/
 [Wed May 18 02:17:13.438044 2016] [:error] [pid 13950] [client 127.0.0.1:34908] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70, referer: http://test.dev/
 [Wed May 18 02:17:13.438049 2016] [:error] [pid 13950] [client 127.0.0.1:34908] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70, referer: http://test.dev/
+[Wed May 18 20:58:41.223142 2016] [negotiation:error] [pid 2064] [client 127.0.0.1:44860] AH00687: Negotiation: discovered file(s) matching request: /var/www/test.dev/web/index (None could be negotiated).
+[Wed May 18 20:58:41.458699 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 20:58:41.458740 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.458765 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.458789 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.458809 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.458827 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.458845 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 20:58:41.458862 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.458880 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.458898 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.458917 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.459077 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 20:58:41.459094 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.459111 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.459129 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.459146 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.459164 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.459182 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 20:58:41.459196 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.459212 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.459229 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.459244 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.459384 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 20:58:41.459424 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.459443 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.459462 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.459481 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.459499 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.459517 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 20:58:41.459535 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.459550 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.459566 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.459581 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.459912 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 20:58:41.459936 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.459954 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.459972 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.459990 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.460006 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.460023 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 20:58:41.460096 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.460112 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.460128 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.460142 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.460274 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 20:58:41.460289 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.460302 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.460317 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.460348 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.460363 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.460377 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 20:58:41.460390 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.460405 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.460417 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.460432 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.460560 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 20:58:41.460577 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.460591 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.460607 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.460622 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.460636 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.460652 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 20:58:41.460666 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.460680 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.460694 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.460707 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.460872 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 20:58:41.460890 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.460905 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.460922 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.460939 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.460954 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.460985 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 20:58:41.460996 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.461005 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 20:58:41.461014 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.461025 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 20:58:41.462699 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.462718 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.462730 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.462742 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.462753 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.462762 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.462772 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.462782 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.462792 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.462801 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.462882 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.462890 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.462900 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.462910 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.462920 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.462929 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.462938 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.462948 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.462970 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.462980 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463116 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.463132 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.463148 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.463163 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.463174 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.463183 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.463193 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.463202 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.463211 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463220 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463294 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.463303 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.463311 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.463321 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.463335 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.463352 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.463366 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.463381 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.463396 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463411 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463501 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.463522 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.463532 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.463541 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.463550 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.463560 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.463569 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.463578 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.463586 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463595 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463706 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.463722 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.463738 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.463754 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.463764 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.463773 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.463783 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.463792 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.463800 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463810 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463881 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.463889 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.463898 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.463907 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 20:58:41.463916 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.463934 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.463944 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.463953 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.463963 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.463972 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.470120 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.470153 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.470173 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.470188 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 20:58:41.470201 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.470214 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.470226 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.470239 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.470252 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.470265 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.470545 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.470562 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.470574 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.470587 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 20:58:41.470599 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.470610 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.470622 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.470633 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.470663 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.470678 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.470791 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.470801 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.470813 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.470825 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 20:58:41.470837 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.470848 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.470859 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.470871 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.470882 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.470893 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.470980 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.470989 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.470999 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.471010 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 20:58:41.471022 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.471033 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.471044 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.471055 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.471066 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.471078 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.471467 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.471498 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.471511 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.471523 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 20:58:41.471535 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.471546 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.471558 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.471569 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.471580 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.471591 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.472146 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.472166 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.472176 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.472187 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 20:58:41.472198 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.472208 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.472219 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.472229 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.472239 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.472250 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.472333 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 20:58:41.472344 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP Stack trace:
+[Wed May 18 20:58:41.472354 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 20:58:41.472365 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 20:58:41.472376 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 20:58:41.472400 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 20:58:41.472411 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 20:58:41.472422 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 20:58:41.472433 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 20:58:41.472444 2016] [:error] [pid 2064] [client 127.0.0.1:44860] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.432980 2016] [negotiation:error] [pid 2065] [client 127.0.0.1:45058] AH00687: Negotiation: discovered file(s) matching request: /var/www/test.dev/web/index (None could be negotiated).
+[Wed May 18 21:03:17.458849 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:03:17.458882 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.458904 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.458923 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.458939 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.458954 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.458968 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:03:17.458981 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.458995 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.459008 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459022 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459162 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:03:17.459174 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.459184 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.459193 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.459202 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.459211 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.459219 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:03:17.459243 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.459252 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.459260 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459268 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459351 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:03:17.459363 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.459378 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.459393 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.459407 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.459419 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.459432 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:03:17.459444 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.459456 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.459468 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459483 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459659 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:03:17.459676 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.459691 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.459706 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.459719 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.459733 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.459748 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:03:17.459762 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.459777 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.459807 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459823 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.459942 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:03:17.459955 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.459969 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.459983 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.459997 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.460011 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.460025 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:03:17.460063 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.460084 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.460097 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.460110 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.460212 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:03:17.460226 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.460239 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.460253 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.460267 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.460280 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.460293 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:03:17.460305 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.460317 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.460329 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.460342 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.460574 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:03:17.460592 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.460605 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.460619 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.460631 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.460643 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.460656 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:03:17.460668 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.460682 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:03:17.460694 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.460707 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:03:17.461566 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.461586 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.461599 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.461610 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.461621 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.461632 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.461642 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.461653 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.461663 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.461673 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.461762 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.461770 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.461781 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.461802 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.461813 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.461824 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.461833 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.461843 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.461854 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.461863 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462067 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.462081 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.462093 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.462103 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.462114 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.462124 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.462134 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.462144 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.462154 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462164 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462244 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.462253 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.462264 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.462274 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.462284 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.462295 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.462315 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.462326 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.462336 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462346 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462421 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.462429 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.462440 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.462450 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.462461 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.462470 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.462480 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.462490 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.462500 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462510 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462666 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.462678 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.462689 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.462699 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.462708 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.462719 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.462728 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.462738 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.462749 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462769 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462845 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.462853 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.462863 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.462873 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:03:17.462882 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.462891 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.462901 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.462910 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.462919 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.462929 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.464555 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.464577 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.464591 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.464602 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:03:17.464613 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.464625 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.464635 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.464646 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.464656 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.464667 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.464883 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.464896 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.464908 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.464929 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:03:17.464940 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.464950 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.464960 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.464970 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.464981 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.464991 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465073 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.465082 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.465093 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.465103 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:03:17.465113 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.465122 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.465132 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.465142 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.465152 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465162 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465237 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.465245 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.465255 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.465265 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:03:17.465276 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.465286 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.465304 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.465315 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.465325 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465335 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465520 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.465532 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.465544 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.465554 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:03:17.465565 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.465575 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.465585 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.465595 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.465604 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465614 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465701 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.465714 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.465727 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.465740 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:03:17.465752 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.465765 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.465777 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.465788 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.465801 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465825 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465909 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:03:17.465919 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP Stack trace:
+[Wed May 18 21:03:17.465929 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:03:17.465939 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:03:17.465949 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:03:17.465960 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:03:17.465969 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:03:17.465979 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:03:17.465988 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:03:17.465998 2016] [:error] [pid 2065] [client 127.0.0.1:45058] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.671095 2016] [negotiation:error] [pid 2066] [client 127.0.0.1:45184] AH00687: Negotiation: discovered file(s) matching request: /var/www/test.dev/web/index (None could be negotiated).
+[Wed May 18 21:08:22.692415 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:08:22.692443 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.692467 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.692478 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.692490 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.692499 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.692509 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:08:22.692518 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.692528 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.692537 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.692547 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.692630 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:08:22.692651 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.692662 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.692671 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.692681 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.692691 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.692701 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:08:22.692709 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.692717 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.692726 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.692734 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.692805 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:08:22.692815 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.692825 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.692836 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.692845 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.692854 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.692863 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:08:22.692871 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.692879 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.692888 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.692897 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693004 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:08:22.693015 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.693025 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.693042 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.693051 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.693059 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.693069 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:08:22.693076 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693086 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693096 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693105 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693179 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:08:22.693188 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.693197 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.693206 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.693215 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.693224 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.693232 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:08:22.693242 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693251 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693259 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693268 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693337 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:08:22.693347 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.693356 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.693366 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.693374 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.693392 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.693402 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:08:22.693410 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693419 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693428 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693437 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693814 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php on line 243
+[Wed May 18 21:08:22.693830 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.693842 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.693853 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.693863 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.693873 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\log\\Target->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.693883 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\log\\FileTarget->export() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:111
+[Wed May 18 21:08:22.693893 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. array_map() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693902 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. yii\\log\\Target->formatMessage() /var/www/test.dev/vendor/yiisoft/yii2/log/FileTarget.php:106
+[Wed May 18 21:08:22.693911 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.693921 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   9. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2/log/Target.php:243
+[Wed May 18 21:08:22.694481 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.694493 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.694502 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.694509 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.694516 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.694522 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.694529 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.694542 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.694549 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694556 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694606 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.694612 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.694619 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.694626 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.694632 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.694639 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.694645 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.694651 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.694657 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694663 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694752 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.694763 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.694775 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.694792 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.694801 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.694807 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.694821 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.694828 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.694834 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694840 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694893 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.694899 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.694905 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.694912 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.694918 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.694924 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.694930 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.694937 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.694943 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694949 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.694990 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.694996 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.695002 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.695009 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.695015 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.695021 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.695027 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.695033 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.695039 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.695045 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.695112 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.695124 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.695136 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.695153 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.695174 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.695181 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.695187 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.695193 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.695199 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.695205 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.695251 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.695256 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.695262 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.695269 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+[Wed May 18 21:08:22.695275 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.695281 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.695287 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.695293 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.695299 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.695305 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696336 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 0 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.696351 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.696361 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.696368 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:08:22.696374 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.696380 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.696386 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.696398 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.696404 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696410 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696505 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 1 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.696516 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.696535 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.696544 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:08:22.696552 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.696558 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.696572 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.696578 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.696584 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696590 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696635 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 2 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.696641 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.696647 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.696653 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:08:22.696659 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.696665 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.696671 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.696677 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.696683 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696688 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696735 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 3 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.696740 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.696747 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.696752 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:08:22.696758 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.696764 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.696770 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.696776 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.696781 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696787 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696852 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 4 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.696863 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.696883 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.696893 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:08:22.696904 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.696915 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.696923 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.696932 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.696942 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.696951 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.697012 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 5 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.697021 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.697031 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.697040 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:08:22.697057 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.697065 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.697075 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.697084 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.697094 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.697103 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.697166 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Warning:  Expected array for frame 6 in /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+[Wed May 18 21:08:22.697176 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP Stack trace:
+[Wed May 18 21:08:22.697184 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   1. yii\\base\\ErrorHandler->handleException() /var/www/test.dev/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+[Wed May 18 21:08:22.697192 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   2. yii\\log\\Logger->flush() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:0
+[Wed May 18 21:08:22.697201 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   3. yii\\log\\Dispatcher->dispatch() /var/www/test.dev/vendor/yiisoft/yii2/log/Logger.php:173
+[Wed May 18 21:08:22.697209 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   4. yii\\debug\\LogTarget->collect() /var/www/test.dev/vendor/yiisoft/yii2/log/Dispatcher.php:188
+[Wed May 18 21:08:22.697218 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   5. yii\\debug\\LogTarget->export() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:118
+[Wed May 18 21:08:22.697227 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   6. yii\\debug\\panels\\LogPanel->save() /var/www/test.dev/vendor/yiisoft/yii2-debug/LogTarget.php:54
+[Wed May 18 21:08:22.697236 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   7. Exception->__toString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+[Wed May 18 21:08:22.697246 2016] [:error] [pid 2066] [client 127.0.0.1:45184] PHP   8. Exception->getTraceAsString() /var/www/test.dev/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
